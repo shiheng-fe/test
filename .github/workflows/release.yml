@@ -42,11 +42,9 @@ jobs:
           node-version: 14
           registry-url: 'https://registry.npmjs.org/'
 
-      - name: npm-env
-        run: echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
-
       - name: publish
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM }}
+        if: ${{ steps.make-release.outputs.release_created }}
 
