@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/shiheng-fe/test/compare/v1.2.0...v1.3.0) (2021-11-24)
+
+
+### Features
+
+* :sparkles: push? ([f3a5916](https://www.github.com/shiheng-fe/test/commit/f3a5916f50a34da7cc04913d9eda4346aa3f9c8f))
+* :sparkles: 哈哈哈哈 ([ab914b6](https://www.github.com/shiheng-fe/test/commit/ab914b6659ecb2d2078571e5f57703ca4e03ad23))
+
+
+### Dev
+
+* only pull_request ([310e739](https://www.github.com/shiheng-fe/test/commit/310e7399c2777c862846ba55872af3ebd7eddaa2))
+
 ## [1.2.0](https://www.github.com/shiheng-fe/test/compare/v1.1.0...v1.2.0) (2021-11-24)
 
 
