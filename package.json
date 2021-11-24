@@ -1,10 +1,12 @@
 {
   "name": "@shihengtech/test",
   "version": "1.0.1",
+  "private": false,
   "description": "测试一下 CI",
   "main": "index.js",
-  "devDependencies": {
-    "release-it": "^14.11.8"
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "release": "release-it"
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/shiheng-fe/test/issues"
   },
-  "homepage": "https://github.com/shiheng-fe/test#readme"
+  "homepage": "https://github.com/shiheng-fe/test#readme",
+  "devDependencies": {
+    "release-it": "^14.11.8"
+  }
 }
