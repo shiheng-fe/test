@@ -1,0 +1,26 @@
+{
+  "name": "@shihengtech/test",
+  "version": "1.0.0",
+  "description": "测试一下 CI",
+  "main": "index.js",
+  "devDependencies": {
+    "release-it": "^14.11.8"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiheng-fe/test.git"
+  },
+  "author": {
+    "name": "asakura",
+    "email": "csh572078151@gmail.com",
+    "url": "https://github.com/AsakuraC"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shiheng-fe/test/issues"
+  },
+  "homepage": "https://github.com/shiheng-fe/test#readme"
+}
