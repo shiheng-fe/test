@@ -1,6 +1,6 @@
 {
   "name": "@shihengtech/test",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "private": false,
   "description": "测试一下 CI",
   "main": "index.js",
