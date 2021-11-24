@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.1](https://www.github.com/shiheng-fe/test/compare/v1.3.0...v1.3.1) (2021-11-24)
+
+
+### Bug Fixes
+
+* 试试 fix ([126293f](https://www.github.com/shiheng-fe/test/commit/126293f36629b8aa126e5e201c55c397c6452a41))
+
 ## [1.3.0](https://www.github.com/shiheng-fe/test/compare/v1.2.0...v1.3.0) (2021-11-24)
 
 
