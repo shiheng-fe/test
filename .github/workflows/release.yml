@@ -22,11 +22,25 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: release-please-action
+        uses: google-github-actions/release-please-action@v2.32.0
+        id: make-release
+        with:
+          token: ${{ secrets.GIT_HUB_TOKEN }}
+          release-type: node
+          changelog-types: >
+            [{"type":"feat","section":"Features","hidden":false},
+            {"type":"fix","section":"Bug Fixes","hidden":false},
+            {"type":"dev","section":"Dev","hidden":false},
+            {"type":"doc","section":"Doc","hidden":false},
+            {"type":"meta","section":"Miscellaneous","hidden":false}]
+
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: 14
+          registry-url: 'https://registry.npmjs.org/'
 
       - name: npm-env
         run: echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
